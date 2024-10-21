@@ -1,0 +1,19 @@
+{
+  "version": "38.0.1",
+  "files": {
+    "f7718bb99edded6009c209d6e0643be1633348fe1d81f960c00b4d725d0b5846": {
+      "source": {
+        "path": "amplify-amplifygen2example-skudo-sandbox-218db99e54.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "f7718bb99edded6009c209d6e0643be1633348fe1d81f960c00b4d725d0b5846.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
