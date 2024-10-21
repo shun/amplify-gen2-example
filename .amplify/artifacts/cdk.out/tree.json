@@ -1,0 +1,89 @@
+{
+  "version": "tree-0.1",
+  "tree": {
+    "id": "App",
+    "path": "",
+    "children": {
+      "amplify-amplifygen2example-skudo-sandbox-218db99e54": {
+        "id": "amplify-amplifygen2example-skudo-sandbox-218db99e54",
+        "path": "amplify-amplifygen2example-skudo-sandbox-218db99e54",
+        "children": {
+          "deploymentType": {
+            "id": "deploymentType",
+            "path": "amplify-amplifygen2example-skudo-sandbox-218db99e54/deploymentType",
+            "constructInfo": {
+              "fqn": "aws-cdk-lib.CfnOutput",
+              "version": "2.162.1"
+            }
+          },
+          "region": {
+            "id": "region",
+            "path": "amplify-amplifygen2example-skudo-sandbox-218db99e54/region",
+            "constructInfo": {
+              "fqn": "aws-cdk-lib.CfnOutput",
+              "version": "2.162.1"
+            }
+          },
+          "CDKMetadata": {
+            "id": "CDKMetadata",
+            "path": "amplify-amplifygen2example-skudo-sandbox-218db99e54/CDKMetadata",
+            "children": {
+              "Default": {
+                "id": "Default",
+                "path": "amplify-amplifygen2example-skudo-sandbox-218db99e54/CDKMetadata/Default",
+                "constructInfo": {
+                  "fqn": "aws-cdk-lib.CfnResource",
+                  "version": "2.162.1"
+                }
+              },
+              "Condition": {
+                "id": "Condition",
+                "path": "amplify-amplifygen2example-skudo-sandbox-218db99e54/CDKMetadata/Condition",
+                "constructInfo": {
+                  "fqn": "aws-cdk-lib.CfnCondition",
+                  "version": "2.162.1"
+                }
+              }
+            },
+            "constructInfo": {
+              "fqn": "constructs.Construct",
+              "version": "10.4.2"
+            }
+          },
+          "BootstrapVersion": {
+            "id": "BootstrapVersion",
+            "path": "amplify-amplifygen2example-skudo-sandbox-218db99e54/BootstrapVersion",
+            "constructInfo": {
+              "fqn": "aws-cdk-lib.CfnParameter",
+              "version": "2.162.1"
+            }
+          },
+          "CheckBootstrapVersion": {
+            "id": "CheckBootstrapVersion",
+            "path": "amplify-amplifygen2example-skudo-sandbox-218db99e54/CheckBootstrapVersion",
+            "constructInfo": {
+              "fqn": "aws-cdk-lib.CfnRule",
+              "version": "2.162.1"
+            }
+          }
+        },
+        "constructInfo": {
+          "fqn": "aws-cdk-lib.Stack",
+          "version": "2.162.1"
+        }
+      },
+      "Tree": {
+        "id": "Tree",
+        "path": "Tree",
+        "constructInfo": {
+          "fqn": "constructs.Construct",
+          "version": "10.4.2"
+        }
+      }
+    },
+    "constructInfo": {
+      "fqn": "aws-cdk-lib.App",
+      "version": "2.162.1"
+    }
+  }
+}
